@@ -1,0 +1,75 @@
+body
+{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+
+    background-color: #191919;
+}
+
+#container
+{
+    color: black;
+    width: 70%;
+    padding: 1em;
+    text-align: left;
+    border: 1px solid #000000;
+    margin: 0 auto;
+    font-family: Verdana;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: #fafbfd;
+}
+
+#head
+{
+    background-color: royalblue;
+    padding: 1em;
+    font-family: 'Times New Roman';
+    color: #fff;
+    font-weight: bold;
+    text-align: left;
+}
+
+#date
+{
+    background-color: royalblue;
+    padding: 1em;
+    font-family: 'Times New Roman';
+    color: #fff;
+    font-weight: bold;
+    text-align: right;
+}
+
+#author
+{
+    background-color: royalblue;
+    padding: 1em;
+    font-family: 'Times New Roman';
+    text-align: right;
+    color: #fff;
+    font-style: italic;
+    font-weight: bold;
+
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0.5);
+}
+
+#head-date-container 
+{
+    display: flex;
+    justify-content: space-between; /* Alinea los elementos con espacio entre ellos */
+    background-color: royalblue;
+
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0.5);
+}
+
+img[alt="logo_platzi"]
+{
+width: 25px;
+height: auto;
+padding-right: 5px;
+vertical-align: middle;
+
+}
