@@ -1,0 +1,62 @@
+body {
+    font-family:'Times New Roman';
+    line-height: 1.6;
+    background-color: #000000; /* fondo */
+    color: #FFFFFF; /* texto */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #333333;
+}
+
+.header {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Raleway';
+}
+
+.section {
+    padding: 20px;
+    border-bottom: 1px solid #555555;
+}
+
+.section:last-child {
+    border-bottom: none;
+}
+
+.section h2 {
+    color: #ffffff;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-family: Arial
+}
+
+.section p {
+    color: #dddddd;
+    font-size: 1.2em;
+    line-height: 1.8;
+}
+
+.section a {
+    color: #00bfff;
+    text-decoration: none;
+}
+
+.section a:hover {
+    text-decoration: underline;
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url('../../../fonts/Raleway/Raleway-VariableFont_wght.ttf');
+ }
