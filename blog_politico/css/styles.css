@@ -13,7 +13,7 @@ body {
 
 .container {
     width: 80%;
-    margin: 20px auto;
+    margin: 5px auto;
     border: 1px solid #cccccc;
     border-radius: 8px;
     overflow: hidden;
@@ -34,6 +34,9 @@ body {
 .section {
     padding: 20px;
     border-bottom: 1px solid #555555;
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .section:last-child {
@@ -44,7 +47,6 @@ body {
     color: #ffffff;
     font-size: 1.5em;
     margin-bottom: 10px;
-    font-family: Arial
 }
 
 .section p {
