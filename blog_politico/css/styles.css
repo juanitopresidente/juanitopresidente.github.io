@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Raleway:wght@100..900&display=swap');
+
 body {
-    font-family:'Times New Roman';
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 400;
+    font-style: normal;
     line-height: 1.6;
     background-color: #000000; /* fondo */
     color: #FFFFFF; /* texto */
@@ -22,9 +26,11 @@ body {
     color: #ffffff;
     text-align: center;
     padding: 20px;
-    font-family: 'Raleway';
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
 }
-
 .section {
     padding: 20px;
     border-bottom: 1px solid #555555;
@@ -55,8 +61,3 @@ body {
 .section a:hover {
     text-decoration: underline;
 }
-
-@font-face {
-    font-family: Raleway;
-    src: url('../../../fonts/Raleway/Raleway-VariableFont_wght.ttf');
- }
