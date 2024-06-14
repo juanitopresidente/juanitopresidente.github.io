@@ -1,5 +1,5 @@
 body {
-    font-family: 'Times New Roman';
+    font-family: 'Roman';
     line-height: 1.6;
     background-color: #000000; /* fondo */
     color: #FFFFFF; /* texto */
@@ -48,3 +48,8 @@ body {
     font-family: Raleway;
     src: url('../../../../fonts/Raleway/Raleway-VariableFont_wght.ttf');
  }
+
+@font-face {
+    font-family: Roman;
+    src: url('../../../../fonts/Raleway/Raleway-VariableFont_wght.ttf');
+}
