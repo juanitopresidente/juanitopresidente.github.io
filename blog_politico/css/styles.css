@@ -12,8 +12,8 @@ body {
 }
 
 .container {
-    width: 80%;
-    margin: 5px auto;
+    width: 95%;
+    margin: 20px auto;
     border: 1px solid #cccccc;
     border-radius: 8px;
     overflow: hidden;
