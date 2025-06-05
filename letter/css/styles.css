@@ -10,6 +10,8 @@ body {
 
 .papel {
   background-color: #fff;
+  background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png');
+  background-blend-mode: multiply;
   border: 2px solid #333;
   padding: 40px;
   width: 90%;
@@ -20,7 +22,16 @@ body {
   line-height: 1.8;
   border-radius: 8px;
   box-sizing: border-box;
-  max-height: 30vh;
+}
+
+.papel img {
+  max-width: 100%;
+  height: auto;
+  max-height: 300px; /* O ajustable: 200px, 250px, etc. */
+  display: block;
+  margin: 20px auto 0;
+  border-radius: 10px;
+  object-fit: contain;
 }
 
 h1 {
