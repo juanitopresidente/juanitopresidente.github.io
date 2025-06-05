@@ -28,6 +28,7 @@ h1 {
   border-bottom: 1px solid #ccc;
   padding-bottom: 10px;
 }
+
 .papel img {
   max-width: 100%;
   height: auto;
@@ -35,4 +36,11 @@ h1 {
   border-radius: 10px;
   border: 1px solid #ccc;
   box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+}
+
+@media (max-width: 600px) {
+  .papel {
+    padding: 20px;
+    font-size: 1em;
+  }
 }
