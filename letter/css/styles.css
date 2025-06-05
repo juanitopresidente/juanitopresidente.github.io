@@ -28,3 +28,11 @@ h1 {
   border-bottom: 1px solid #ccc;
   padding-bottom: 10px;
 }
+.papel img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+}
